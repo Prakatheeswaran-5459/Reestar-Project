@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;  
+    padding: 20px;    
+}
+
+
+.card__component img{
+    width: 200px;
+    height: 200px;
+}
+.head{
+    background-color: black;
+    color: white;
+}
+.head__title{
+    text-align: center;
+}
+.head__desc{
+    text-align: center
+}
+.head__desc li{
+    display: inline-block;
+    text-align: center;
+}
+.head__desc__menu:hover{
+    color: gray;
+    cursor: pointer;
+}
+.card{
+    text-align: center;
+    margin: 20px;
+}
+.card__component{
+   display: inline-block;
+   width: 200px;
+   text-align: center;
+   padding: 10px;
+   border: 2px solid black;
+}
+button{
+    padding: 5px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: green;
+}
+
+.contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.contact__detail{
+    text-align: center;
+    display: inline-block;
+}
+.contact__detail__input{
+    background-color: yellow;
+    text-align: center;
+    border: none;
+    width: 230px;
+    padding: 7px;
+}
